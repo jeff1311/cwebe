@@ -1,0 +1,22 @@
+#server
+server:
+  port: 8888
+  servlet:
+#    context-path: /cwebe
+
+#spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cwebe?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull
+    data-username: root
+    data-password: 123456
+#  resources:
+#    static-locations: [
+#      "classpath:test1",
+#      "classpath:test2"
+#    ]
+#  mvc:
+#    view:
+#      prefix: classpath:static
+#      suffix: .html
